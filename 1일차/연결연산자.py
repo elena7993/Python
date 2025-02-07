@@ -8,3 +8,5 @@ print(year, text)
 
 # print(year + num, text)
 print((year + num), text)
+
+print("다음 해는", (year + num), text,"입니다")

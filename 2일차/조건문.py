@@ -8,7 +8,7 @@
 # else:
 #   print("gggg")
 
-value = input("값을 입력하세요.")
+value = input("숫자를 입력하세요:")
 # =>터미널에 값을 입력할 수 있음
 # =>반환값은 str
 
@@ -18,5 +18,11 @@ result = int(value)
 # print("당신의 나이는: ", value)
 # print(type(value))
 
-print(type(result))
-print(result + 101)
+# print(type(result))
+# print(result + 101)
+
+if result % 2 == 0:
+  print(result, "는(은) 짝수입니다!")
+else:
+  print(result, "는(은) 홀수입니다") 
+
