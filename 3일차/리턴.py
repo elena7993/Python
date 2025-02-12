@@ -1,5 +1,10 @@
+# def plus(a, b):
+#   return a + b
+
+# result = plus(10,20)
+# print(result)
+
 def plus(a, b):
   return a + b
 
-result = plus(10,20)
-print(result)
+print(plus(10, 20))
