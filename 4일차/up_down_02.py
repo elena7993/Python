@@ -3,7 +3,7 @@ import random as ran
 num = ran.randrange(1, 101)
 
 playing = True
-total_count = 5
+total_count = 10
 
 for count in range(1, (total_count + 1)):
   input_num = int(input(f"({total_count - count + 1}회 남음) 숫자를 입력하세요!"))
